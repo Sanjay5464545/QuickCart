@@ -32,6 +32,9 @@ const Navbar = () => {
         <Link href="/" className="hover:text-gray-900 transition">
           Contact
         </Link>
+        <Link href="/chat" className="hover:text-gray-900 transition bg-gradient-to-r from-purple-500 to-pink-500 text-white px-3 py-1.5 rounded-full text-sm font-medium">
+          AI Chat
+        </Link>
 
         {isSeller && <button onClick={() => router.push('/seller')} className="text-xs border px-4 py-1.5 rounded-full">Seller Dashboard</button>}
 

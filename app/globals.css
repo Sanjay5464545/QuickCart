@@ -6,6 +6,11 @@
     scroll-behavior: smooth;
 }
 
+html {
+  /* Support for dark mode */
+  color-scheme: light dark;
+}
+
 @layer base {
     input[type="number"]::-webkit-inner-spin-button,
     input[type="number"]::-webkit-outer-spin-button {
